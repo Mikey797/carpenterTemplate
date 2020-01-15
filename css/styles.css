@@ -1,0 +1,193 @@
+/*CSS  reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*navigation bar*/
+#navbar {
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+#main-heading {
+  font-size: 55px;
+  display: inline;
+  margin-left: 272px;
+  margin-right: 313px;
+}
+
+.menu-items-ul {
+  list-style: none;
+  display: inline;
+}
+
+a,
+li {
+  display: inline;
+  text-decoration: none;
+  color: #000000;
+}
+
+#about-us-li,
+#services-li {
+  margin-right: 29px;
+}
+
+#about-us-li:hover,
+#services-li:hover,
+#contact-us-li:hover {
+  border-bottom: #eac15a solid 4px;
+}
+
+/*main introduction*/
+#main-introduction {
+  height: 977px;
+  background-image: url("../images/main_image.png");
+}
+
+#main-introduction > p {
+  text-align: center;
+  font-size: 60px;
+  color: #ffffff;
+  padding-top: 362px;
+  background: #00000030 0% 0% no-repeat padding-box;
+  height: 977px;
+}
+
+/* what we do */
+
+#what-we-do-section {
+  height: 762px;
+  background: #ededee 0% 0% no-repeat padding-box;
+}
+
+#what-we-do-article-container {
+  display: flex;
+  justify-content: center;
+}
+
+#what-we-do-text {
+  padding-top: 52px;
+  padding-bottom: 60px;
+  text-align: center;
+  font: Bold 49px/56px Arial;
+  letter-spacing: 22.88px;
+  color: #00688b;
+}
+
+.what-we-do-card {
+  width: 420px;
+  height: 500px;
+  background: white;
+}
+
+.what-we-do-title {
+  font: Bold 29px/33px Arial;
+  color: #000000;
+  text-align: center;
+  padding-top: 33px;
+}
+
+.what-we-do-description {
+  text-align: center;
+  font: Bold 30px/34px Arial;
+  letter-spacing: 0;
+  color: #00688b;
+  opacity: 1;
+  padding-top: 33px;
+}
+
+#what-we-do-one {
+  margin-right: 50px;
+}
+
+#what-we-do-two {
+  margin-right: 50px;
+}
+
+/* why choose us */
+#why-choose-us-section {
+  height: 587px;
+  background: #00688b 0% 0% no-repeat padding-box;
+  color: #ffffff;
+}
+
+#why-choose-us-text {
+  padding-top: 80px;
+  text-align: center;
+  font: Bold 49px/56px Arial;
+  letter-spacing: 15.24px;
+}
+
+#why-choose-us-container {
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font: Bold 23px/27px Arial;
+}
+
+.why-choose-us-title {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+/* contact section */
+
+#contact-section {
+  height: 463px;
+  background: #ededee 0% 0% no-repeat padding-box;
+  display: flex;
+  justify-content: center;
+}
+
+#contact-details {
+  background: white;
+  width: 684px;
+  height: 463px;
+  text-align: center;
+  font: Bold 30px/35px Trebuchet MS;
+}
+
+#contact-us-text {
+  margin-bottom: 23px;
+  padding-top: 92px;
+  color: #000000ba;
+  border-bottom: #eac15a solid 4px;
+  font: Bold 30px/35px;
+}
+
+#google-maps {
+  width: 684px;
+  height: 463px;
+  background: gray;
+  text-align: center;
+}
+
+.social-icons {
+  margin-top: 24px;
+}
+
+footer {
+  background: #00688b;
+  height: 136px;
+}
+
+footer :first-child {
+  font: Regular 25px/29px Trebuchet MS;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+}
+
+footer:last-child {
+  font: Bold 15px/17px Trebuchet MS;
+  color: #ffffffba;
+  text-align: center;
+  text-decoration: none;
+}
